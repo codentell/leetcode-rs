@@ -1,4 +1,4 @@
-// 692
+// 692. Top K Frequent Elements
 pub fn top_k_frequent(nums: &[i32], k: i32) -> Vec<i32> {
     use std::collections::HashMap;
 

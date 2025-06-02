@@ -19,14 +19,10 @@ pub fn sort_an_array(nums: &[i32]) -> Vec<i32> {
     let mut results = vec![];
     for i in 0..buckets.len() {
         for j in buckets[i].clone() {
-            results.push(j)
+            results.push(j);
         }
     }
     results
-}
-
-fn main() {
-    println!("{:?}", sort_an_array(&[1,3,4,4,5,5,2,1,9, -1, -10]));
 }
 
 
